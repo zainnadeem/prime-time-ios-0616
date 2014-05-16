@@ -18,6 +18,8 @@
 		726812151923ECC5009F8F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726811FA1923ECC5009F8F37 /* Foundation.framework */; };
 		726812161923ECC5009F8F37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726811FE1923ECC5009F8F37 /* UIKit.framework */; };
 		7268121E1923ECC5009F8F37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7268121C1923ECC5009F8F37 /* InfoPlist.strings */; };
+		72AE98651926914600C551EA /* FISPrimeViews2000Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE98641926914600C551EA /* FISPrimeViews2000Spec.m */; };
+		72AE9867192691AC00C551EA /* FISPrimeViews5000Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE9866192691AC00C551EA /* FISPrimeViews5000Spec.m */; };
 		72B2E3A31925766B00F9A3A3 /* FISPrimeViewsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B2E3A21925766B00F9A3A3 /* FISPrimeViewsSpec.m */; };
 		FDB0429F6C734DBEA1492468 /* libPods-PrimeTimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1715E2E7914D189A1B7F53 /* libPods-PrimeTimeTests.a */; };
 /* End PBXBuildFile section */
@@ -49,6 +51,8 @@
 		726812131923ECC5009F8F37 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7268121B1923ECC5009F8F37 /* PrimeTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeTimeTests-Info.plist"; sourceTree = "<group>"; };
 		7268121D1923ECC5009F8F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72AE98641926914600C551EA /* FISPrimeViews2000Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeViews2000Spec.m; sourceTree = "<group>"; };
+		72AE9866192691AC00C551EA /* FISPrimeViews5000Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeViews5000Spec.m; sourceTree = "<group>"; };
 		72B2E3A21925766B00F9A3A3 /* FISPrimeViewsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeViewsSpec.m; sourceTree = "<group>"; };
 		EE1715E2E7914D189A1B7F53 /* libPods-PrimeTimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrimeTimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -136,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				72B2E3A21925766B00F9A3A3 /* FISPrimeViewsSpec.m */,
+				72AE98641926914600C551EA /* FISPrimeViews2000Spec.m */,
+				72AE9866192691AC00C551EA /* FISPrimeViews5000Spec.m */,
 				7268121A1923ECC5009F8F37 /* Supporting Files */,
 			);
 			path = PrimeTimeTests;
@@ -290,6 +296,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72AE98651926914600C551EA /* FISPrimeViews2000Spec.m in Sources */,
+				72AE9867192691AC00C551EA /* FISPrimeViews5000Spec.m in Sources */,
 				72B2E3A31925766B00F9A3A3 /* FISPrimeViewsSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
