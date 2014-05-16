@@ -24,7 +24,6 @@
     self.tableView.accessibilityIdentifier = @"table";
     self.primeList = [[NSMutableDictionary alloc] init];
     
-    
     for (int x=0; x<100; x++) {
         NSString *keyString = [NSString stringWithFormat:@"%i", x];
         NSString *valueString = [NSString stringWithFormat:@"%i", [self primeNumber:x+1]];

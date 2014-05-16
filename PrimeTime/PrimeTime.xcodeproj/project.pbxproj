@@ -20,6 +20,8 @@
 		7268121E1923ECC5009F8F37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7268121C1923ECC5009F8F37 /* InfoPlist.strings */; };
 		7268122A192413AE009F8F37 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72681229192413AE009F8F37 /* Storyboard.storyboard */; };
 		7268122D19241B5D009F8F37 /* FISPrimeTimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7268122C19241B5D009F8F37 /* FISPrimeTimeTableViewController.m */; };
+		72AE986A192694FB00C551EA /* FISPrimeViews2000Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE9868192694FB00C551EA /* FISPrimeViews2000Spec.m */; };
+		72AE986B192694FB00C551EA /* FISPrimeViews5000Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE9869192694FB00C551EA /* FISPrimeViews5000Spec.m */; };
 		72B2E3A11925640900F9A3A3 /* FISPrimeViewsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B2E3A01925640900F9A3A3 /* FISPrimeViewsSpec.m */; };
 		FDB0429F6C734DBEA1492468 /* libPods-PrimeTimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1715E2E7914D189A1B7F53 /* libPods-PrimeTimeTests.a */; };
 /* End PBXBuildFile section */
@@ -54,6 +56,8 @@
 		72681229192413AE009F8F37 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		7268122B19241B5D009F8F37 /* FISPrimeTimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPrimeTimeTableViewController.h; sourceTree = "<group>"; };
 		7268122C19241B5D009F8F37 /* FISPrimeTimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeTimeTableViewController.m; sourceTree = "<group>"; };
+		72AE9868192694FB00C551EA /* FISPrimeViews2000Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeViews2000Spec.m; sourceTree = "<group>"; };
+		72AE9869192694FB00C551EA /* FISPrimeViews5000Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeViews5000Spec.m; sourceTree = "<group>"; };
 		72B2E3A01925640900F9A3A3 /* FISPrimeViewsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeViewsSpec.m; sourceTree = "<group>"; };
 		EE1715E2E7914D189A1B7F53 /* libPods-PrimeTimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrimeTimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -144,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				72B2E3A01925640900F9A3A3 /* FISPrimeViewsSpec.m */,
+				72AE9868192694FB00C551EA /* FISPrimeViews2000Spec.m */,
+				72AE9869192694FB00C551EA /* FISPrimeViews5000Spec.m */,
 				7268121A1923ECC5009F8F37 /* Supporting Files */,
 			);
 			path = PrimeTimeTests;
@@ -300,6 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72AE986A192694FB00C551EA /* FISPrimeViews2000Spec.m in Sources */,
+				72AE986B192694FB00C551EA /* FISPrimeViews5000Spec.m in Sources */,
 				72B2E3A11925640900F9A3A3 /* FISPrimeViewsSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,10 +450,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrimeTime/PrimeTime-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "PrimeTimeTests/PrimeTimeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -465,6 +470,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrimeTime/PrimeTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "PrimeTimeTests/PrimeTimeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
