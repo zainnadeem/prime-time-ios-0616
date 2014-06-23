@@ -11,7 +11,7 @@ Understanding some of the performance characteristics of `UITableView`
 
 **Don't just google the answer to finding primes!! Try and actually solve it**
 
-  1. First create a function `primeNumber:(NSInteger)prime` that will generate the `prime`th prime number. So if you passed in 5 it would return 11 because that is the 5th prime. If you put in 386 then you would get 2,663. Remember a prime number is a number that is only divisible by 1 and itself.
+  1. First create a function `primeNumber:(NSInteger)prime` that will generate the `prime`th prime number. So if you passed in 5 it would return 11 because that is the 5th prime. If you put in 386 then you would get 2,663. Remember a prime number is a number that is only divisible by 1 and itself. To figure out if something is evenly divisible the "modulus" should equal 0. Modulus is the remainder from division, it's symbol is %. So, `5 % 3 = 2`, `5 % 5 = 0`, `5 % 4 = 1` and `5 % 1 = 0`
   2. Now create a `UITableView` and make each cell's contents equal to that row numbers prime number. So row number 5 should have 11 in it and row number 386 should have 2663.
 - programmatically set your uitableview's accessibility identifier to 'table'
 - you should have 100 tableview cells
