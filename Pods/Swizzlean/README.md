@@ -1,4 +1,4 @@
-# Swizzlean  [![Build Status](https://travis-ci.org/rbaumbach/Swizzlean.png)](https://travis-ci.org/rbaumbach/Swizzlean)
+# Swizzlean  [![Build Status](https://travis-ci.org/rbaumbach/Swizzlean.png)](https://travis-ci.org/rbaumbach/Swizzlean) [![Cocoapod Version](https://cocoapod-badges.herokuapp.com/v/Swizzlean/badge.png)](http://cocoapods.org/?q=Swizzlean) [![Cocoapod Platform](https://cocoapod-badges.herokuapp.com/p/Swizzlean/badge.png)](http://cocoapods.org/?q=Swizzlean) [![License](http://b.repl.ca/v1/License-MIT-blue.png)](https://github.com/rbaumbach/Swizzlean/blob/master/MIT.LICENSE)
 
 A quick and "lean" way to swizzle methods for your Objective-C development needs.
 
@@ -8,9 +8,9 @@ A quick and "lean" way to swizzle methods for your Objective-C development needs
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add Swizzlean to your project.
 
-1.  Add Swizzlean to your Podfile `pod 'Swizzlean', '~> 0.1.0'`.
+1.  Add Swizzlean to your Podfile `pod 'Swizzlean'`.
 2.  Install the pod(s) by running `pod install`.
-3.  Include Swizzlean to your files with `#import "Swizzlean.h"`.
+3.  Include Swizzlean to your files with `#import <Swizzlean/Swizzlean.h>`.
 
 ### Clone from Github
 
@@ -49,9 +49,41 @@ NSLog(@"The int value for number7 is: %d", [number7 intValue]);
 // returns - The int value for number7 is: 7
 ```
 
-## Suggestions, requests and feedback
+## Testing
+
+* Prerequisites: [ruby](https://github.com/sstephenson/rbenv), [ruby gems](https://rubygems.org/pages/download), [bundler](http://bundler.io)
+
+To use the included Rakefile to run Cedar specs, run the setup.sh script to bundle required gems and cocoapods:
+
+```bash
+$ ./setup.sh
+```
+
+Then run rake to run cedar specs on the command line:
+
+```bash
+$ bundle exec rake
+```
+
+Additional rake tasks can be seen using rake -T:
+
+```bash
+$ rake -T
+rake build_swizzlean    # Build Swizzlean
+rake clean[target]      # Clean target
+rake clean_all_targets  # Clean all target
+rake integration_specs  # Run Integration Specs
+rake run_all_specs      # Run all Specs
+rake specs              # Run Specs
+```
+
+## Suggestions, requests, feedback and acknowledgements
 
 Thanks for checking out Swizzlean for your swizzling.  Any feedback can be 
 can be sent to: rbaumbach.github@gmail.com.
 
 This software is licensed under the MIT License.
+
+Thanks to the following contributors for keeping Swizzlean Swizzletastic:
+Erik Stromlund & Aaron Koop
+
