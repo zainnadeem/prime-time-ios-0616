@@ -9,11 +9,9 @@ target "PrimeTime" do
 end
 
 target "PrimeTimeTests" do
-  pod 'Specta'
   pod 'Expecta',     '~> 0.2.4'                                                 
-
-  pod 'KIF', '~> 3.0'                                                           
-
   pod 'Swizzlean', '~> 0.1.1' 
+  pod 'Specta'
+  pod 'KIF'
 end
 
