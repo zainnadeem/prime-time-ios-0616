@@ -1,7 +1,4 @@
----
-  tags: table-views, views, todo
-  languages: objc
----
+
 
 ##Goal
 
