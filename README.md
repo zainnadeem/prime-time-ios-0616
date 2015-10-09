@@ -1,9 +1,6 @@
----
-  tags: table-views, views, todo
-  languages: objc
----
+# Prime Time
 
-##Goal
+## Goal
 
 Understanding some of the performance characteristics of `UITableView`
 
