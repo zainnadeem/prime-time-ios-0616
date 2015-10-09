@@ -1,7 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 # Uncomment this line to define a global platform for your project
-# platform :ios, "6.0"
+# platform :ios, "8.0"
 
 target "PrimeTime" do
 
@@ -9,9 +9,10 @@ target "PrimeTime" do
 end
 
 target "PrimeTimeTests" do
-  pod 'Expecta',     '~> 0.2.4'                                                 
-  pod 'Swizzlean', '~> 0.1.1' 
-  pod 'Specta'
-  pod 'KIF'
+  pod 'Specta',    '~> 1.0'
+  pod 'Expecta',   '~> 1.0'
+  pod 'KIF',       '~> 3.3'                                                 
+  pod 'Swizzlean', '~> 0.2' 
+  
 end
 
