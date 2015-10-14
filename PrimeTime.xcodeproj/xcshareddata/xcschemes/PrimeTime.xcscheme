@@ -79,6 +79,24 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "LOG_PATH=`echo &quot;${BUILD_DIR}&quot; | sed &quot;s/Build\/Products/Logs\/Test/&quot;`&#10;&quot;${SRCROOT}/test_runner.sh&quot; &quot;$LOG_PATH&quot; &quot;${SRCROOT}&quot;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "726811F61923ECC5009F8F37"
+                     BuildableName = "PrimeTime.app"
+                     BlueprintName = "PrimeTime"
+                     ReferencedContainer = "container:PrimeTime.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
