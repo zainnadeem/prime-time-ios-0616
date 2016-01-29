@@ -23,4 +23,4 @@ Understanding some of the performance characteristics of `UITableView`
 
 There is another type of loop called a `while` loop that will continue to run as long as some condition is still met. This may be useful in finding primes. [link for more info](https://mobileappmastery.com/objective-c-loops/)
 
-<a href='https://learn.co/lessons/prime-time' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/prime-time' title='Goal'>Goal</a> on Learn.co and start learning to code for free.</p>
